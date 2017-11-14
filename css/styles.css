@@ -8,14 +8,20 @@
   width: 100%;
   height: 100px;
   z-index: -1;
+  filter: blur(3px);
 }
 
 .headertext {
   position: absolute;
-  top: -100px;
+  top: -110px;
   left: 100px;
   color: white;
   font-size: 100px;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 .world {
@@ -37,7 +43,7 @@
 }
 
 .animaltext {
-  background-color: white;
+  background-color: rgba(222, 115, 202, 0.39);
   margin-top: 0;
 }
 
@@ -58,10 +64,7 @@
   left: 700px;
 }
 
-.narwhal img {
-  max-height: 70px;
-  border-radius: 45px;
-}
+
 
 .redpanda {
   position: absolute;
@@ -69,10 +72,7 @@
   left: 1300px;
 }
 
-.redpanda img {
-  max-height: 70px;
-  border-radius: 45px;
-}
+
 
 .dwarflemur {
   position: absolute;
@@ -80,10 +80,7 @@
   left: 1000px;
 }
 
-.dwarflemur img {
-  max-height: 70px;
-  border-radius: 45px;
-}
+
 
 .markhor {
   position: absolute;
@@ -91,30 +88,20 @@
   left: 1100px;
 }
 
-.markhor img {
-  max-height: 70px;
-  border-radius: 45px;
-}
+
 .wolverine {
   position: absolute;
   top: 80px;
   left: 900px;
 }
 
-.wolverine img {
-  max-height: 70px;
-  border-radius: 45px;
-}
+
 .snowleopard {
   position: absolute;
   top: 110px;
   left: 1200px;
 }
 
-.snowleopard img {
-  max-height: 70px;
-  border-radius: 45px;
-}
 
 .hoodedseal {
   position: absolute;
@@ -122,10 +109,6 @@
   left: 1000px;
 }
 
-.hoodedseal img {
-  max-height: 70px;
-  border-radius: 45px;
-}
 
 .dorcopsis {
   position: absolute;
@@ -133,7 +116,31 @@
   left: 1400px;
 }
 
-.dorcopsis img {
+.redsquirrel {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+
+.animalimg {
   max-height: 70px;
   border-radius: 45px;
+}
+
+.hidden-marmoset {
+  display: none;
+}
+
+.marmoset:hover .hidden-marmoset {
+  display: block;
+}
+
+.animalimg:hover {
+  border: solid;
+  border-color: white;
+}
+
+.subtext {
+  font-size: 50px;
+  color: white;
 }
