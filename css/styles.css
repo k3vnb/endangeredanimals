@@ -19,17 +19,121 @@
 }
 
 .world {
-  position: relative;
+  position: absolute;
   top: 120px;
   width: 100%;
+  z-index: -2;
 }
 
 .marmoset {
   position: absolute;
-  top: 500px;
-  left: 550px;
+  top: 400px;
+  left: 470px;
 }
 
 .marmoset img {
   max-height: 70px;
+  border-radius: 45px;
+}
+
+.animaltext {
+  background-color: white;
+  margin-top: 0;
+}
+
+.sandcat {
+  position: absolute;
+  top: 200px;
+  left: 1100px;
+}
+
+.sandcat img {
+  max-height: 70px;
+  border-radius: 45px;
+}
+
+.narwhal {
+  position: absolute;
+  top: 70px;
+  left: 700px;
+}
+
+.narwhal img {
+  max-height: 70px;
+  border-radius: 45px;
+}
+
+.redpanda {
+  position: absolute;
+  top: 200px;
+  left: 1300px;
+}
+
+.redpanda img {
+  max-height: 70px;
+  border-radius: 45px;
+}
+
+.dwarflemur {
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+}
+
+.dwarflemur img {
+  max-height: 70px;
+  border-radius: 45px;
+}
+
+.markhor {
+  position: absolute;
+  top: 100px;
+  left: 1100px;
+}
+
+.markhor img {
+  max-height: 70px;
+  border-radius: 45px;
+}
+.wolverine {
+  position: absolute;
+  top: 80px;
+  left: 900px;
+}
+
+.wolverine img {
+  max-height: 70px;
+  border-radius: 45px;
+}
+.snowleopard {
+  position: absolute;
+  top: 110px;
+  left: 1200px;
+}
+
+.snowleopard img {
+  max-height: 70px;
+  border-radius: 45px;
+}
+
+.hoodedseal {
+  position: absolute;
+  top: 800px;
+  left: 1000px;
+}
+
+.hoodedseal img {
+  max-height: 70px;
+  border-radius: 45px;
+}
+
+.dorcopsis {
+  position: absolute;
+  top: 600px;
+  left: 1400px;
+}
+
+.dorcopsis img {
+  max-height: 70px;
+  border-radius: 45px;
 }
