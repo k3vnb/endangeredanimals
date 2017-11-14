@@ -1,3 +1,7 @@
+ul {
+  list-style-type: none;
+}
+
 .banner {
   position: fixed;
   width: 100%;
@@ -24,6 +28,18 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.subtext {
+  font-size: 50px;
+  color: black;
+}
+
+.hidden {
+  background-color: white;
+  border: solid;
+  padding-right: 30px;
+  position: absolute;
+  width: 500px;
+}
 .world {
   position: absolute;
   top: 120px;
@@ -64,15 +80,19 @@ body {
   left: 700px;
 }
 
-
-
 .redpanda {
   position: absolute;
   top: 200px;
   left: 1300px;
 }
 
+.hidden-red-panda {
+  display: none;
+}
 
+.redpanda:hover .hidden-red-panda {
+  display: block;
+}
 
 .dwarflemur {
   position: absolute;
@@ -80,14 +100,19 @@ body {
   left: 1000px;
 }
 
-
-
 .markhor {
   position: absolute;
   top: 100px;
   left: 1100px;
 }
 
+.hidden-markhor {
+  display: none;
+}
+
+.markhor:hover .hidden-markhor {
+  display: block;
+}
 
 .wolverine {
   position: absolute;
@@ -95,20 +120,35 @@ body {
   left: 900px;
 }
 
-
-.snowleopard {
+.snow-leopard {
   position: absolute;
   top: 110px;
   left: 1200px;
 }
 
+.hidden-snow-leopard {
+  display: none;
+}
+
+.snow-leopard:hover .hidden-snow-leopard {
+  display: block;
+}
 
 .hoodedseal {
   position: absolute;
   top: 800px;
   left: 1000px;
 }
+.hidden-hooded-seal {
+  display: none;
+}
 
+.hoodedseal:hover .hidden-hooded-seal {
+  display: block;
+  position: relative;
+  top: -490px;
+  left: 100px;
+}
 
 .dorcopsis {
   position: absolute;
@@ -116,10 +156,57 @@ body {
   left: 1400px;
 }
 
+.hidden-dorcopsis {
+  display: none;
+}
+
+.dorcopsis:hover .hidden-dorcopsis {
+  display: block;
+}
+
+.hidden-narwhal {
+  display: none;
+}
+
+.narwhal:hover .hidden-narwhal {
+  display: block;
+}
+
+.hidden-dwarflemur {
+  display: none;
+}
+
+.dwarflemur:hover .hidden-dwarflemur {
+  display: block;
+}
+
+.hidden-wolverine {
+  display: none;
+}
+
+.wolverine:hover .hidden-wolverine {
+  display: block;
+}
+
+.hidden-sandcat {
+  display: none;
+}
+
+.sandcat:hover .hidden-sandcat {
+  display: block;
+}
+
 .redsquirrel {
   position: absolute;
   top: 150px;
   left: 300px;
+}
+.hidden-squirrel {
+  display: none;
+}
+
+.redsquirrel:hover .hidden-squirrel {
+  display: block;
 }
 
 .animalimg {
@@ -138,9 +225,4 @@ body {
 .animalimg:hover {
   border: solid;
   border-color: white;
-}
-
-.subtext {
-  font-size: 50px;
-  color: white;
 }
