@@ -18,7 +18,7 @@ ul {
 .headertext {
   position: absolute;
   top: -110px;
-  left: 100px;
+  left: 300px;
   color: white;
   font-size: 100px;
 
@@ -29,16 +29,25 @@ body {
 }
 
 .subtext {
-  font-size: 50px;
+  font-size: 30px;
   color: black;
 }
 
 .hidden {
-  background-color: white;
+  background: linear-gradient(45deg, #F7D6F1, #A22B8C);
   border: solid;
   padding-right: 30px;
   position: absolute;
   width: 500px;
+  box-shadow: 4px 4px 10px skyblue;
+}
+
+.hidden img {
+  width: 100%;
+  border: solid;
+  border-color: grey;
+  margin-left: 12px;
+  margin-top: 12px;
 }
 .world {
   position: absolute;
@@ -53,14 +62,15 @@ body {
   left: 470px;
 }
 
-.marmoset img {
-  max-height: 70px;
-  border-radius: 45px;
-}
 
 .animaltext {
   background-color: rgba(222, 115, 202, 0.39);
   margin-top: 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: .3px .3px .3px white;
+  box-shadow: .3px .3px .3px white;
 }
 
 .sandcat {
@@ -69,10 +79,6 @@ body {
   left: 1100px;
 }
 
-.sandcat img {
-  max-height: 70px;
-  border-radius: 45px;
-}
 
 .narwhal {
   position: absolute;
@@ -146,7 +152,7 @@ body {
 .hoodedseal:hover .hidden-hooded-seal {
   display: block;
   position: relative;
-  top: -490px;
+  top: -590px;
   left: 100px;
 }
 
@@ -162,6 +168,9 @@ body {
 
 .dorcopsis:hover .hidden-dorcopsis {
   display: block;
+  position: relative;
+  top: -400px;
+  left: 100px;
 }
 
 .hidden-narwhal {
@@ -178,6 +187,9 @@ body {
 
 .dwarflemur:hover .hidden-dwarflemur {
   display: block;
+  position: relative;
+  top: -300px;
+  left: 100px;
 }
 
 .hidden-wolverine {
@@ -212,6 +224,7 @@ body {
 .animalimg {
   max-height: 70px;
   border-radius: 45px;
+  box-shadow: 1px 5px 6px skyblue;
 }
 
 .hidden-marmoset {
